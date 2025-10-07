@@ -12,7 +12,7 @@
 
 <!-- ---------- -->
 <p align="center">
-  <img src="images/FSPO.png" alt="FSPO Overview" style="width:90%;"/>
+  <img src="images/SFPO_pipeline.png" alt="FSPO Overview" style="width:90%;"/>
 </p>
 
 ## Abstract
