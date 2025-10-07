@@ -7,8 +7,8 @@
 </div>
 
 ## News
-- **[2025.10.6]** Website released: [https://infini-ai-lab.github.io/M2PO/](https://zkbig.github.io/Slow_Fast_Policy_Optimization.github.io/).
-- **[2025.10.6]** Paper preprint available on [https://arxiv.org/abs/2510.01161](https://arxiv.org/abs/2510.04072).
+- **[2025.10.6]** Website released: [https://zkbig.github.io/Slow_Fast_Policy_Optimization.github.io/](https://zkbig.github.io/Slow_Fast_Policy_Optimization.github.io/).
+- **[2025.10.6]** Paper preprint available on [https://arxiv.org/abs/2510.04072](https://arxiv.org/abs/2510.04072).
 
 <!-- ---------- -->
 <p align="center">
