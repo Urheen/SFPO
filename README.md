@@ -19,7 +19,7 @@
 </p>
 
 ## 🔥 News
-- **[2025.10.16]** Code released.
+- **[2025.10.21]** Code released.
 - **[2025.10.6]** Website launched: [https://Slow_Fast_Policy_Optimization/](https://zkbig.github.io/Slow_Fast_Policy_Optimization.github.io/).
 - **[2025.10.6]** Paper preprint available on: [https://arxiv.org/abs/2510.04072](https://arxiv.org/abs/2510.04072).
 
