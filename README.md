@@ -39,7 +39,7 @@ This **reposition-before-update** design preserves the objective and rollout pro
 
 </div>
 <p align="center">
-  <img src="images/efficiency.png" alt="SFPO Overview" style="width:50%;"/>
+  <img src="images/efficiency.png" alt="SFPO Overview" style="width:40%;"/>
 </p>
 
 Our SFPO can reach GRPO’s best performance at the early stage of training, thereby significantly reducing the number of rollouts required compared to GRPO and further saving computational budget.
