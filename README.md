@@ -1,8 +1,17 @@
 <div align="center">
 <h1>Slow-Fast Policy Optimization: Reposition-Before-Update for LLM Reasoning</h1>
-<div align="center">
-[<a href="https://arxiv.org/abs/2510.04072">Paper</a>] | [<a href="https://zkbig.github.io/Slow_Fast_Policy_Optimization.github.io/">Website</a>]
-</div>
+
+<p align="center">
+  <a href="https://github.com/Urheen/SFPO">
+    <img src="https://img.shields.io/badge/%20GitHub-000000?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+  <a href="https://arxiv.org/abs/2510.04072">
+    <img src="https://img.shields.io/badge/%20arXiv-CC0000?style=for-the-badge&logo=arxiv&logoColor=white">
+  </a>
+  <a href="https://zkbig.github.io/Slow_Fast_Policy_Optimization.github.io/">
+    <img src="https://img.shields.io/badge/%20Website-2E8B57?style=for-the-badge&logo=googlechrome&logoColor=white">
+  </a>
+</p>
 
 </div>
 <p align="center">
