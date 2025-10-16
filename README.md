@@ -63,14 +63,14 @@ Our implementation is based on
 
 ---
 
-### Environment Setup & Data Preparation
+### 🖥️ Environment Setup & Data Preparation
 Please refer to the official environment setup and data preparation guides of 
 [Infini-AI-Lab/GRESO](https://github.com/Infini-AI-Lab/GRESO) and 
 [SkyworkAI/Skywork-OR1](https://github.com/SkyworkAI/Skywork-OR1) for details.
 
 ---
 
-### Training ⚙️
+### ⚙️ Training
 
 #### For GRESO
 
@@ -96,7 +96,7 @@ We use the official repo of Skywork-OR1 for rl training: [https://github.com/Sky
 
 ---
 
-## ⚖️ Evaluation
+### ⚖️ Evaluation
 We follow the work [GRESO](https://github.com/Infini-AI-Lab/GRESO) that reports the performance of the checkpoint that obtains the best average performance on six benchmarks. Specifically, we evaluate all models with temperature = 1 and report pass@1(avg@4) for all benchmarks.
 
 ---
