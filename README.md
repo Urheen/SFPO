@@ -68,6 +68,19 @@ Please refer to the official environment setup and data preparation guides of
 [Infini-AI-Lab/GRESO](https://github.com/Infini-AI-Lab/GRESO) and 
 [SkyworkAI/Skywork-OR1](https://github.com/SkyworkAI/Skywork-OR1) for details.
 
+```bash
+conda create -n sfpo python==3.11
+conda activate sfpo
+cd Code/SFPO
+
+pip3 install -e .
+pip3 install vllm==0.8.2
+pip install tensordict==0.6.0
+pip install flash-attn==2.7.4.post1 --no-build-isolation
+pip install wandb IPython matplotlib ipdb latex2sympy2-extended math-verify torchdata pylatexenc
+pip install transformers==4.57.1
+
+```
 ---
 
 ### ⚙️ Training
