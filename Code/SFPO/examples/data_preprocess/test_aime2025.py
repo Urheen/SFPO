@@ -37,7 +37,7 @@ def make_prefix(dp, template_type):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--local_dir', default='/mnt/shared-storage-user/wangziyan-p/code/verl/data/aime2025')
+    parser.add_argument('--local_dir', default='./data/aime2025')
     parser.add_argument('--hdfs_dir', default=None)
     # parser.add_argument('--train_size', type=int, default=7500)
     # parser.add_argument('--test_size', type=int, default=5000)
@@ -45,7 +45,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    data_source = '/mnt/shared-storage-user/wangziyan-p/code/verl/data/aime_2025'
+    data_source = 'MathArena/aime_2025'
 
     dataset = datasets.load_dataset(data_source, trust_remote_code=True)
 

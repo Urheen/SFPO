@@ -41,7 +41,6 @@ from verl.utils.flops_counter import FlopsCounter
 from verl.utils.checkpoint.fsdp_checkpoint_manager import FSDPCheckpointManager
 from verl.workers.sharding_manager.fsdp_ulysses import FSDPUlyssesShardingManager
 import numpy as np
-from verl.trainer.ttis.ttis import filter_zero_advantage
 
 from codetiming import Timer
 

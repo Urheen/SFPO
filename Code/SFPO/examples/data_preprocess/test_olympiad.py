@@ -37,13 +37,13 @@ def make_prefix(dp, template_type):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--local_dir', default='/mnt/shared-storage-user/wangziyan-p/code/verl/data/olympiadbench')
+    parser.add_argument('--local_dir', default='./data/olympiadbench')
     parser.add_argument('--hdfs_dir', default=None)
     parser.add_argument('--template_type', type=str, default='base')
 
     args = parser.parse_args()
 
-    data_source = '/mnt/shared-storage-user/wangziyan-p/code/verl/data/olympiadbench-raw'
+    data_source = 'math-ai/olympiadbench'
 
     dataset = datasets.load_dataset(data_source, trust_remote_code=True)
 

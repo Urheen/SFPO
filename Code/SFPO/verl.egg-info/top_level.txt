@@ -6,7 +6,6 @@ patches
 raw-data
 recipe
 scripts
-static
 tests
 train-scripts
 verl

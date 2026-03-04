@@ -48,6 +48,7 @@ from verl.utils.dataset.rl_dataset import RLHFDataset, collate_fn
 from verl.utils.tracking import ValidationGenerationsLogger
 from torch.utils.data import RandomSampler, SequentialSampler
 from torchdata.stateful_dataloader import StatefulDataLoader
+from .presampling_selector import DataProfiler
 
 WorkerType = Type[Worker]
 

@@ -1,4 +1,3 @@
-README.md
 pyproject.toml
 ./examples/data_preprocess/dapo_math.py
 ./examples/data_preprocess/full_hh_rlhf.py
@@ -9,6 +8,7 @@ pyproject.toml
 ./examples/data_preprocess/math_dataset.py
 ./examples/data_preprocess/openr1_math_default.py
 ./examples/data_preprocess/test_aime2024.py
+./examples/data_preprocess/test_aime2025.py
 ./examples/data_preprocess/test_amc.py
 ./examples/data_preprocess/test_gaokao.py
 ./examples/data_preprocess/test_gsm8k.py
@@ -183,9 +183,6 @@ pyproject.toml
 ./verl/trainer/ppo/core_algos.py
 ./verl/trainer/ppo/metric_utils.py
 ./verl/trainer/ppo/ray_trainer.py
-./verl/trainer/ttis/__init__.py
-./verl/trainer/ttis/presampling_selector.py
-./verl/trainer/ttis/ttis.py
 ./verl/utils/__init__.py
 ./verl/utils/config.py
 ./verl/utils/distributed.py
@@ -461,9 +458,6 @@ verl/trainer/ppo/__init__.py
 verl/trainer/ppo/core_algos.py
 verl/trainer/ppo/metric_utils.py
 verl/trainer/ppo/ray_trainer.py
-verl/trainer/ttis/__init__.py
-verl/trainer/ttis/presampling_selector.py
-verl/trainer/ttis/ttis.py
 verl/utils/__init__.py
 verl/utils/config.py
 verl/utils/distributed.py

@@ -3,14 +3,14 @@ set -x
 export VLLM_ATTENTION_BACKEND=XFORMERS
 
 GPU_NUM=8
-train_files="['YOUR TRAINING DATASET PATH']"
-test_files="['YOUR TEST DATASET PATH']"
-project_name='YOUR PROJECT NAME'
-experiment_name='YOUR EXPERIMENT NAME'
+train_files="['./data/dapo_math/train.parquet', 'data/lighteval-math/train.parquet']"
+test_files="['./data/math500/test.parquet', './data/amc/test.parquet', './data/aime2024/test.parquet','data/minervamath/test.parquet', 'data/olympiadbench/test.parquet']"
+project_name='sfpo'
+experiment_name='deepseek_qwen_1_5b_baseline'
 
 mkdir -p data-log/$project_name
 
-model_path="YOUR MODEL PATH"
+model_path="deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
 
 python -u -m verl.trainer.main_ppo \
     algorithm.adv_estimator=grpo \
