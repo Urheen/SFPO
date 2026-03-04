@@ -99,7 +99,7 @@ bash train-scripts/math_qwen_7b_dm_sfpo.sh
 
 Train Qwen3 4b with SFPO
 ```bash
-bash train-scripts/qwen3_4b_dm_sfpo.sh
+bash train-scripts/qwen3_4b_sfpo.sh
 ```
 
 See more scripts in the `train-scripts` folder.
