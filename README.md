@@ -75,7 +75,7 @@ cd Code/SFPO
 
 pip3 install -e .
 pip3 install vllm==0.8.2
-pip install tensordict==0.6.0
+pip install tensordict==0.6.2
 pip install flash-attn==2.7.4.post1 --no-build-isolation
 pip install wandb IPython matplotlib ipdb latex2sympy2-extended math-verify torchdata pylatexenc
 pip install transformers==4.57.1
