@@ -1,3 +1,0 @@
-[2026-03-03 22:36:00,224][root][INFO] - Failed to auto-detect TPU type.
-[2026-03-03 22:36:00,227][root][INFO] - Failed to configure TPU pod. Got: tpu_name: None, worker_id: None, accelerator_type: None
-[2026-03-03 22:36:00,228][root][INFO] - Failed to auto-detect TPU type.
