@@ -89,12 +89,12 @@ pip install transformers==4.57.1
 
 Train Qwen 1.5b with SFPO
 ```bash
-bash train-scripts/math_qwen_1_5b_dm_sfpo.sh
+bash train-scripts/math_qwen_1_5b_sfpo.sh
 ```
 
 Train Qwen 7b with SFPO
 ```bash
-bash train-scripts/math_qwen_7b_dm_sfpo.sh
+bash train-scripts/math_qwen_7b_sfpo.sh
 ```
 
 Train Qwen3 4b with SFPO
