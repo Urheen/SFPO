@@ -19,8 +19,9 @@
 </p>
 
 ## 🔥 News
+- **[2026.01.26]** Our paper has been accepted at ICLR 2026.
 - **[2025.10.21]** Code released.
-- **[2025.10.6]** Website launched: [https://Slow_Fast_Policy_Optimization/](https://zkbig.github.io/Slow_Fast_Policy_Optimization.github.io/).
+- **[2025.10.6]** Website launched: [https://slow-fast-po.github.io/](https://slow-fast-po.github.io/).
 - **[2025.10.6]** Paper preprint available on: [https://arxiv.org/abs/2510.04072](https://arxiv.org/abs/2510.04072).
 
 ---
@@ -76,10 +77,15 @@ cd Code/SFPO
 pip3 install -e .
 pip3 install vllm==0.8.2
 pip install tensordict==0.6.2
-pip install flash-attn==2.7.4.post1 --no-build-isolation
+pip install flash-attn==2.7.4.post1 --no-build-isolation --no-cache-dir
 pip install wandb IPython matplotlib ipdb latex2sympy2-extended math-verify torchdata pylatexenc
 pip install transformers==4.57.1
 
+# make sure tensordict is still 0.6.2
+pip check tensordict
+
+# if not, install again
+pip install tensordict==0.6.2
 ```
 ---
 
@@ -186,7 +192,7 @@ If you find our work useful, please cite:
 ```bibtex
 @article{wang2025slow,
   title={Slow-Fast Policy Optimization: Reposition-Before-Update for LLM Reasoning},
-  author={Wang, Ziyan and Wang, Zheng and Fu, Jie and Qu, Xingwei and Cheng, Qi and Tang, Shengpu and Zhang, Minjia and Huo, Xiaoming},
+  author={Wang, Ziyan and Wang, Zheng and Qu, Xingwei and Cheng, Qi and Fu, Jie and Tang, Shengpu and Zhang, Minjia and Huo, Xiaoming},
   journal={arXiv preprint arXiv:2510.04072},
   year={2025}
 }
