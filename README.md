@@ -1,7 +1,28 @@
 <div align="center">
 <h1>Slow-Fast Policy Optimization: Reposition-Before-Update for LLM Reasoning</h1>
 
-<p align="center">
+<p align="center" style="font-size: 14px; margin: 5px 0;">
+  Ziyan Wang<sup>*1</sup>,
+  Zheng Wang<sup>*2</sup>,
+  Xingwei Qu,
+  Qi Cheng,
+  Jie Fu,
+  Shengpu Tang,
+  Minjia Zhang<sup>2</sup>,
+  Xiaoming Huo<sup>1</sup>
+</p>
+<p align="center" style="font-size: 14px; margin: 5px 0;">
+  <sup>*</sup>Equal contribution
+</p>
+
+<p align="center" style="font-size: 14px; margin: 5px 0;">
+  <sup>1</sup>Georgia Institute of Technology,
+  <sup>2</sup>University of Illinois Urbana-Champaign
+</p>
+
+---
+
+<p align="center" style="margin-top: 18px;">
   <a href="https://github.com/Urheen/SFPO">
     <img src="https://img.shields.io/badge/%20GitHub-000000?style=for-the-badge&logo=github&logoColor=white">
   </a>
@@ -82,7 +103,7 @@ pip install wandb IPython matplotlib ipdb latex2sympy2-extended math-verify torc
 pip install transformers==4.57.1
 
 # make sure tensordict is still 0.6.2
-pip check tensordict
+pip show tensordict
 
 # if not, install again
 pip install tensordict==0.6.2
